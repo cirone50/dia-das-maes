@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia das Mães</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope ">
+                <div class="letter ">
+                    <div class="text ">
+                        <strong>FELIZ DIA DAS MÃES!!!</strong>
+                        <p>
+                            Para a mais linda de todas e que torna minha vida mais alegre!<br>
+                            Obrigada por tudo, você é a mulher mais forte que eu conheço. <br>
+                            <span id="amor">Eu te amo mais que tudo!</span>
+                            <span id="assinatura">Ass: Ana Clara <br>sua primeira filhota </span>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap')});
+        
+    </script>
+</body>
+</html>
